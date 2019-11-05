@@ -1,8 +1,14 @@
 import React from 'react';
-function App() {
+import { Switch, Route } from 'react-router-dom';
+
+import Dashboard from './pages/Dashboard';
+
+const App = () => {
   return (
     <div className="App">
-      <p>Hello</p>
+      <Switch>
+        <Route path="/" exact component={Dashboard}></Route>
+      </Switch>
     </div>
   );
 }
