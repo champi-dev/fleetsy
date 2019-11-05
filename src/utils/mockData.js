@@ -4,7 +4,7 @@ const mockData = generateData();
 
 function generateData() {
   const user = {
-    name: 'Admin',
+    name: 'Admin User',
     avatarUrl: 'https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1'
   };
 
@@ -25,12 +25,14 @@ function generateData() {
     0: {
       id: 0,
       name: 'Andres',
+      avatarUrl: 'https://api.thedrive.com/wp-content/uploads/2019/09/best-truck-driver-headsets.jpg?quality=85',
       vehicle_id: 0,
       deliveries_id: [0, 1]
     },
     1: {
       id: 1,
       name: 'Carlos',
+      avatarUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKAsWmc_9O1yUQkA6M26XWlcZNRfkWbcuXH11qJToKFZATrmttJw&s',
       vehicle_id: 1,
       deliveries_id: [2]
     }
