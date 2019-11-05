@@ -13,10 +13,10 @@ const IconBtnComponent = styled.button`
   border-radius: 0.8rem;
 `;
 
-const IconButton = ({ child, isActive, className, handleClick = () => { } }) => {
+const IconButton = ({ child, isActive, className }) => {
 
   return (
-    <IconBtnComponent className={className} onClick={handleClick} style={{
+    <IconBtnComponent className={className} style={{
       background: isActive ? shared.colors.primary : shared.colors.secondary
     }}>
       {child({ fill: isActive ? shared.colors.secondary : shared.colors.text_medium })}
