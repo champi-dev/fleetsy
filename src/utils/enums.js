@@ -1,7 +1,7 @@
 const deliveryStatus = {
-  pending: 0,
-  onTrack: 1,
-  completed: 2
+  pending: 'Pending',
+  onTrack: 'On track',
+  completed: 'Completed'
 };
 
 export {

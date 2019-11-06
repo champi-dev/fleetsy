@@ -59,6 +59,13 @@ function generateData() {
       origin_address: 'Cll 33 # 56 - 33',
       destination_address: 'Cll 80 # 20 - 56',
       driver_id: 1
+    },
+    3: {
+      id: 3,
+      status: deliveryStatus.pending,
+      origin_address: 'Cll 23 # 22 - 33',
+      destination_address: 'Cll 80 # 26 - 46',
+      driver_id: 1
     }
   };
 
